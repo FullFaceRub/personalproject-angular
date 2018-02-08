@@ -1,0 +1,176 @@
+@media (max-width: 790px){
+
+    .landing {
+        width: 50%;
+        left: 24%;
+        top: 43%;
+    }
+
+    .mainbody {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        min-height: 100vh;
+        width: 100%;
+        background-size: contain;
+        position: relative;
+    }
+    
+    .mainheader {
+        flex-direction: row-reverse;
+        padding-left: 50px;
+    }
+
+    .logo {
+        width: 141px;
+    }
+
+    .logoouter {
+        width: 150px;
+        margin-top: 15px;
+    }
+
+    .wave {
+        width: 150px;
+    }
+
+    .navbar {
+        display: none;
+    }
+    
+    .search {
+        display: none;
+    }
+
+    .searchbox {
+        width: 100px;
+    }
+    
+    .hammenu {
+        display: block;
+        width: 45px;
+        border-radius: 50%;
+        border: solid;
+        border-width: 1px;
+        border-color: white;
+    }
+
+    .hammenubutton {
+        display: block;
+        background: none;
+        border: none;
+        outline: none;
+        border-radius: 50%;
+        width: 40px;
+    }
+
+    .hammenubutton:active {
+        background: none;
+    }
+    
+    .hamdisplay {
+        display: block;
+    }
+    
+    .mobnav {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin-right: -65%;
+    margin-top: 100px;
+    position: absolute;
+    width: 0px;
+    opacity: 1;
+    background: rgba(0,0,0,.8);
+    top: -25px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    transition: .1s;
+    border-radius: 25px;
+    }
+
+    .mobchild {
+        opacity: 0;
+        margin-left: -150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slide {
+        width: 150px;
+        opacity: 1;
+        margin-left: 0px;
+    }
+
+    .mobnav a {
+        text-decoration: none;
+        color: silver;
+    }
+
+    .mobsearch {
+        display: flex;
+    }
+
+    .mobnavlinks {
+        height: 30px;
+    }
+
+    .mobchild:nth-child(1) {
+        transition: .2s;
+    }
+
+    .mobchild:nth-child(2) {
+        transition: .3s;
+    }
+
+    .mobchild:nth-child(3) {
+        transition: .4s;
+    }
+
+    .mobchild:nth-child(4) {
+        transition: .5s;
+    }
+
+    .mobchild:nth-child(5) {
+        transition: .6s;
+    }
+
+    .mobchild:nth-child(6) {
+        transition: .7s;
+    }
+
+    .mobchild:nth-child(7) {
+        transition: .7s;
+    }
+
+    .mobchild .slide:nth-child(1) {
+        transition: .2s;
+    }
+
+    .mobchild .slide:nth-child(2) {
+        transition: .3s;
+    }
+
+    .mobchild .slide:nth-child(3) {
+        transition: .4s;
+    }
+
+    .mobchild .slide:nth-child(4) {
+        transition: .5s;
+    }
+
+    .mobchild .slide:nth-child(5) {
+        transition: .6s;
+    }
+
+    .mobchild .slide:nth-child(6) {
+        transition: .7s;
+    }
+
+    .mobchild .slide:nth-child(7) {
+        transition: .7s;
+    }
+}
